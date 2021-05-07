@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    /* mac dinh la 16px*/
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+}
+
+ul,ol,li{list-style: none;}
+
+a{text-decoration: none;}
+
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+/* Language section*/
+.d-flex{display: flex;}
+
+.j-between{justify-content: space-between;}
+
+.a-center{align-items: center;}
+
+#language{
+    background-color: #1d75de;
+    color: #ffffff;
+    padding: 1%;
+
+}
+.f-lang{text-decoration: underline;}
+
+/*Navigation section*/
+#navbar{
+background-color: black;
+padding: 1% 0;
+}
+
+.spotify_logo{fill: #ffffff;}
+
+.header__logo--svg{width: 120px;}
+
+.nav{}
+.nav-item{margin-right: 25px;}
+
+.nav-item:last-child{margin-right: 0px; }
+
+.nav-item a{
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.nav-item a:hover{color: #1ed760;}
+
+/* Main-heading section*/
+#main-heading{
+    background-color: rgb(41, 65, 171);
+    height: 100vh;
+    background-image: url("https://www-growth.scdn.co/static/home/bursts.svg");
+    background-repeat: no-repeat;
+    background-size: 170%;
+    background-position: 45% 0%;
+}
+
+div.Content
+{
+    padding-top: 200px;   
+    padding-bottom: 200px;
+    height: 100vh;
+}
+
+.content{
+    text-align: center;   
+    font-size: 150px;
+    color: #1ed760;
+    font-family: 'Prompt', sans-serif;
+}
+
+.content1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #1ed760;
+    font-family: 'Prompt', sans-serif;
+}
+
+.download{   
+    margin-top: 50px;
+    text-align: center;   
+    font-family: 'Prompt', sans-serif;   
+    height: 150px; 
+}
+
+.link{
+    padding: 10px;
+    background: #1ed760;
+    border-radius: 20px;
+    box-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #2940AB;    
+}
+
+.link:hover{font-size: 17px;}
+
+/*Footer section*/
+#footer{
+    background-color: black;
+    padding: 7% 0;
+}
+
+.col-lg-2{flex: calc(100%/5);}
+
+.col-lg-2 ul li a {
+    color: white;
+    transition: all 0.3s;
+}
+
+.col-lg-2 ul li a:hover{color: #1ed760;}
+
+.col-lg-2 ul li {margin: 20px 0px;}
+
+.fa-circle{
+    width: 50px;
+    height: 50px;
+    background-color: #5a5a5a;
+    position: relative;
+    border-radius: 100%;
+}
+
+.fa-circle a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.tw-circle{
+    width: 50px;
+    height: 50px;
+    background-color: #5a5a5a;
+    position: relative;
+    border-radius: 100%;
+}
+
+.tw-circle a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.in-circle{
+    width: 50px;
+    height: 50px;
+    background-color: #5a5a5a;
+    position: relative;
+    border-radius: 100%;
+}
+
+.in-circle a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.f-item a{font-size: 1.5rem;}
